@@ -9,11 +9,11 @@ We ask you to complete the *Basic Goals* below and deliver the requested outcome
 *Additional Challenges* are suggested if you have time and want to show us what you can do.
 
 ## Basic Goals
-We have a marketing campaign that needs to be produced as an EDM and a stand-alone web page.
+We have a marketing campaign that needs to be produced as an EDM (email) and a stand-alone web page.
 
 The basic goals are to:
 
-1. construct an EDM of the campaign
+1. construct an EDM (email) of the campaign
 2. construct a web page of the campaign
 
 The GitHub repository is located at [StreamCo/frontend-coding-challenge](https://github.com/StreamCo/frontend-coding-challenge), and the assets are located under the directory `/assets`.
@@ -21,8 +21,8 @@ The GitHub repository is located at [StreamCo/frontend-coding-challenge](https:/
 ## Outcomes
 Please provide us with:
 
-1. an EDM of the campaign under the directory `/campaign/edm`
-2. a web page of the campaign under the directory `/campaign/page`
+1. an EDM (the HTML, etc) of the campaign under the directory `/campaign/edm`
+2. a web page (the HTML, etc) of the campaign under the directory `/campaign/page`
 
 Send the above with all code included (eg. any build tools used), as a cloned repository URL (on source code hosting services such as Bitbucket or GitHub).
 
