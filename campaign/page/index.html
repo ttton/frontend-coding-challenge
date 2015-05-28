@@ -79,14 +79,30 @@
 
             #head {
                 height: 69px;
+                overflow: hidden;
+                position: relative;
+                text-align: center;
                 background: #0198f8;
                 color: white;
+            }
+            #head img {
+                // display: none;
+                bottom: -9999px;
+                left: -9999px;
+                margin: auto;
+                max-height: 100%;
+                right: -9999px;
+                position: absolute;
+                top: -9999px;
             }
             #mast {
                 max-height: 334px;
             }
             #mast a {
                 border: none;
+            }
+            #mast img {
+                max-width: 100%;
             }
             #article {
                 padding: 1em 2em;
@@ -120,6 +136,18 @@
                 margin-left: .25em;
             }
 
+            /* Additional responsiveness rules for smaller screen readability */
+            @media screen and (max-width: 480px) {
+                #head {
+                    max-height: 56px;
+                }
+                #article {
+                    padding: 0 1em;
+                }
+                p {
+                    font-size: 87.5%;
+                }
+            }
         </style>
     </head>
     <body>
