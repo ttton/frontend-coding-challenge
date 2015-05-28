@@ -1,10 +1,176 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Front-end Coding Challenge &middot; Marketing Campaign Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            /* http://meyerweb.com/eric/tools/css/reset/ 
+            v2.0 | 20110126
+            License: none (public domain)
+            */
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed, 
+            figure, figcaption, footer, header, hgroup, 
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            /* HTML5 display-role reset for older browsers */
+            article, aside, details, figcaption, figure, 
+            footer, header, hgroup, menu, nav, section {
+                display: block;
+            }
+            html {
+                background-color: white;
+                color: black;
+                font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+                font-weight: normal;
+            }
+            body {
+                background-color: whitesmoke;
+                color: #222;
+                line-height: 1.4;
+                margin: auto;
+                max-width: 600px;
+                min-width: 320px;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            blockquote, q {
+                quotes: none;
+            }
+            blockquote:before, blockquote:after,
+            q:before, q:after {
+                content: '';
+                content: none;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+
+            h1 {
+                font-size: 150%;
+                font-weight: normal;
+                margin: .75em 0;
+            }
+            p {
+                margin: 1em 0;
+            }
+            a {
+                text-decoration: none;
+                border-bottom: 1px solid;
+            }
+
+            #head {
+                height: 69px;
+                overflow: hidden;
+                position: relative;
+                text-align: center;
+                background: #0198f8;
+                color: white;
+            }
+            #head img {
+                // display: none;
+                bottom: -9999px;
+                left: -9999px;
+                margin: auto;
+                max-height: 100%;
+                right: -9999px;
+                position: absolute;
+                top: -9999px;
+            }
+            #mast {
+                max-height: 334px;
+            }
+            #mast a {
+                border: none;
+            }
+            #mast img {
+                max-width: 100%;
+            }
+            #article {
+                padding: 1em 2em;
+            }
+            #sign {
+                padding: 1em 2em 2em;
+            }
+            #foot {
+                background-color: black;
+                border-top: 1px solid transparent;
+                border-bottom: 1px solid transparent;
+                color: dimgrey;
+                font-size: 87.5%;
+                margin-top: 1em;
+                padding: 0 2em;
+            }
+            #foot a {
+                color: darkgrey;
+                margin-right: 7.5em;
+            }
+
+            .button {
+                background: dodgerblue;
+                border-radius: 3px;
+                color: white;
+                display: inline-block;
+                padding: .75em 1em;
+            }
+            .button-right:after {
+                content: '\2192'; /* right arrow */
+                margin-left: .25em;
+            }
+
+            /* Additional responsiveness rules for smaller screen readability */
+            @media screen and (max-width: 480px) {
+                #head {
+                    max-height: 56px;
+                }
+                #article {
+                    padding: 0 1em;
+                }
+                p {
+                    font-size: 87.5%;
+                }
+            }
+        </style>
     </head>
     <body>
+        <div id="head"><img src="static/img/header.png" alt="Stan. The biggest deal in entertainment"></div>
+        <div id="mast">
+            <a href="https://www.stan.com.au/better-call-saul" title="Watch Better Call Saul video clip"><img src="static/img/mast-banner.png" alt="Better Call Saul"></a>
+        </div>
+        <div id="article">
+            <h1>Welcome Lawbreakers!</h1>
+            <p>Eagerly looking forward to the debut of Better Call Saul? Why wouldn&apos;t you be – it&apos;s only the prequel to the multi-award winning, 2014 outstanding Drama at the Emmys and smash hit TV series Breaking Bad.</p>
+            <p>To get you extra giddy before the Australian premiere on Stan next year, the show&apos;s creators have just released the latest sneak peek look at the very first episode.</p>
+            <p>Stan will be calling Saul frequently to ensure you get all of the latest updates. Don&apos;t forget, Better Call Saul will be first and exclusive to Stan.</p>
+            <p><a href="https://www.stan.com.au/better-call-saul" title="Watch Better Call Saul video clip" class="button button-right">Watch the clip here</a></p>
+        </div>
+        <div id="sign">
+            <img src="static/img/stan-text-logo-dark.png" alt="Stan.">
+        </div>
+        <div id="foot">
+            <p>StreamCo Media Pty Ltd<br>ABN 94 168 856 924</p>
+            <p>
+                <a href="#">Unsubscribe</a>
+                <a href="#">Privacy Policy</a>
+            </p>
+        </div>
     </body>
 </html>
