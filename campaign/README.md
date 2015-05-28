@@ -8,6 +8,7 @@
 - Testing frameworks/tools:
     - Markup Validation Service https://validator.w3.org/
     - CSS Validation Service http://jigsaw.w3.org/css-validator/
+    - Litmus.com email testing service https://litmus.com
 - IDE/Editor: NetBeans/Atom
 - SCM: GitHub (Git)
 
