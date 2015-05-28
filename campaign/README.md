@@ -45,3 +45,8 @@ subdirectory. CSS files are located in `css`, while images are stored in
 ## Known Issues
 
 - Low quality raster graphics due to being taken from provided screenshot
+- EDM still displays inconsistently across a number of browsers, notably:
+    - 
+    - Outlook (2000, 2002, 2010, 2013)
+- EDM doesn't render CSS button stylings. CSS buttons need an image fallback
+- CSS "whitesmoke" background color does not render properly on most mail clients (appears white)
