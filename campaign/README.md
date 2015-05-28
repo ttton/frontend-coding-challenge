@@ -5,6 +5,9 @@
 - Languages: CSS/HTML/JS
 - Frameworks/templates:
     - CSS reset 2.0 by Eric Meyer (http://meyerweb.com/eric/tools/css/reset/)
+- Testing frameworks/tools:
+    - Markup Validation Service https://validator.w3.org/
+    - CSS Validation Service http://jigsaw.w3.org/css-validator/
 - IDE/Editor: NetBeans/Atom
 - SCM: GitHub (Git)
 
