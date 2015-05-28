@@ -1,5 +1,11 @@
 # Coding Challenge Submission
 
+## Technology Stack
+
+- Languages: CSS/HTML/JS
+- IDE/Editor: NetBeans/Atom
+- SCM: GitHub (Git)
+
 ## Development Assumptions
 
 - Static content management (i.e. content does not need to be generated dynamically, thus no application code required)
