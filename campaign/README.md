@@ -29,6 +29,7 @@ subdirectory. CSS files are located in `css`, while images are stored in
 
 ## Development Assumptions
 
+- Both the EDM and webpage need to follow exactly the same design
 - Static content management (i.e. content does not need to be generated dynamically, thus no application code required)
 - Placeholder links are appropriate until proper links are provided
 - No graphic resources will be made available besides the screenshot in the assets dir
