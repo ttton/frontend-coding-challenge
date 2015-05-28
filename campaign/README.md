@@ -3,6 +3,8 @@
 ## Technology Stack
 
 - Languages: CSS/HTML/JS
+- Frameworks/templates:
+    - CSS reset 2.0 by Eric Meyer (http://meyerweb.com/eric/tools/css/reset/)
 - IDE/Editor: NetBeans/Atom
 - SCM: GitHub (Git)
 
