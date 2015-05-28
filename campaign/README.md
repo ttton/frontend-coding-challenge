@@ -32,7 +32,7 @@ subdirectory. CSS files are located in `css`, while images are stored in
 - Content required for accessibility (e.g. title tag, title attributes and alt tags) that isn't specified in the requirements can be adapted from the provided text
 - WC3 standards compliance is required
 - UTF-8 encoding allowed
-- JavaScript does not need to be used for things that CSS and HTML can do
+- JavaScript not expressly required (if HTML and CSS are sufficient)
 - Links to preview videos can be pointed to relevant pages on the Stan website
 
 ## Known Issues
