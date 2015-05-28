@@ -14,6 +14,8 @@
 - IDE/Editor: NetBeans/Atom
 - SCM: GitHub (Git)
 
+Note: JavaScript has not been used due to the lack of features requiring it.
+
 ## Directory Structure
 
 Webpage content is contained in the `page` subdirectory. The main webpage
@@ -28,6 +30,16 @@ subdirectory. CSS files are located in `css`, while images are stored in
     +-- static
         +-- css
         +-- img
+```
+
+EDM content is stored in the `edm` subdirectory and consists of just 2 files,
+`index.html` and the plaintext fallback `index.txt`.
+
+```
+.
++-- edm
+    +-- index.html
+    +-- index.txt
 ```
 
 ## Development Assumptions
