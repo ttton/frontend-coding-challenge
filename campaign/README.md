@@ -8,6 +8,22 @@
 - IDE/Editor: NetBeans/Atom
 - SCM: GitHub (Git)
 
+## Directory Structure
+
+Webpage content is contained in the `page` subdirectory. The main webpage
+is called `index.html`. External sources are located under the `static`
+subdirectory. CSS files are located in `css`, while images are stored in
+`img`.
+
+```
+.
++-- page
+    +-- index.html
+    +-- static
+        +-- css
+        +-- img
+```
+
 ## Development Assumptions
 
 - Static content management (i.e. content does not need to be generated dynamically, thus no application code required)
