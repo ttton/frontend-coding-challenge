@@ -64,3 +64,5 @@ EDM content is stored in the `edm` subdirectory and consists of just 2 files,
     - Outlook (2000, 2002, 2010, 2013)
 - EDM doesn't render CSS button stylings. CSS buttons need an image fallback
 - CSS "whitesmoke" background color does not render properly on most mail clients (appears white)
+- Footer links don't go anywhere
+- Button in the "Better Call Saul" mast banner image becomes unreadable at small widths due to image resizing
