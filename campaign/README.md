@@ -15,3 +15,4 @@
 - WC3 standards compliance is required
 - UTF-8 encoding allowed
 - JavaScript does not need to be used for things that CSS and HTML can do
+- Links to preview videos can be pointed to relevant pages on the Stan website
