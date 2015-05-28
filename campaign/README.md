@@ -1,5 +1,7 @@
 # Coding Challenge Submission
 
+Submission by **Trungtin Ton**
+
 ## Technology Stack
 
 - Languages: CSS/HTML/JS
@@ -57,8 +59,8 @@ EDM content is stored in the `edm` subdirectory and consists of just 2 files,
 ## Known Issues
 
 - Low quality raster graphics due to being taken from provided screenshot
-- EDM still displays inconsistently across a number of browsers, notably:
-    - 
+- EDM still displays inconsistently across a number of clients, notably:
+    - Lotus Notes
     - Outlook (2000, 2002, 2010, 2013)
 - EDM doesn't render CSS button stylings. CSS buttons need an image fallback
 - CSS "whitesmoke" background color does not render properly on most mail clients (appears white)
