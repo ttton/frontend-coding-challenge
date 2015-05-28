@@ -9,6 +9,8 @@
     - Markup Validation Service https://validator.w3.org/
     - CSS Validation Service http://jigsaw.w3.org/css-validator/
     - Litmus.com email testing service https://litmus.com
+- Build tools/pre-compilers:
+    - https://putsmail.com/inliner (CSS inliner for HTML emails)
 - IDE/Editor: NetBeans/Atom
 - SCM: GitHub (Git)
 
